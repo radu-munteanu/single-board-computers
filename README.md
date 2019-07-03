@@ -2,4 +2,5 @@
 
 A list of Single Board Computers
 
-Please check the [single-board-computers.html](single-board-computers.html) document.
+
+The list is available at [https://radu-munteanu.github.io/single-board-computers](https://radu-munteanu.github.io/single-board-computers/).
