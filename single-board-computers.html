@@ -1,0 +1,221 @@
+<html>
+  <head>
+    <title>Single Board Computers</title>
+    <meta content="single board computers">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <style>
+body {
+  font-family: "DejaVuSans", "Verdana", sans-serif;
+  color: #333333;
+  font-size: 0.9pc;
+  margin: 0;
+  margin-left: 1pc;
+  margin-right: 1pc;
+  padding: 0;
+  height: 100%;
+  width: calc(100% - 2pc);
+}
+
+p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+blockquote {
+  background: #fafafa;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  border: #00aaee solid 0.1rem;
+}
+
+code {
+  font-family: "DejaVuMono", "Courier New", monospace;
+  font-size: 0.8rem;
+  background: #ffddcc;
+  color: #aa1100;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+a {
+  color: #00aaee;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  background-color: #cceeff;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2::before, h3::before, h4::before, h5::before, h6::before {
+  color: #00aaee;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h2::before {
+  content: '> ';
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h3::before {
+  content: '>> ';
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
+h4::before {
+  content: '>>> ';
+}
+
+h5 {
+  font-size: 1.05rem;
+}
+
+h5::before {
+  content: '>>>> ';
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+h6::before {
+  content: '>>>>> ';
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 150%;
+}
+
+tr.product th {
+  color: #ffffff;
+  font-size: 0.8rem;
+  background: #00aaee;
+  text-align: left;
+}
+
+tr.product a {
+  color: #ffffff;
+}
+
+tr.product a:hover {
+  background-color: #cccccc;
+  text-decoration: none;
+}
+
+th, td {
+  color: #333333;
+  font-size: 0.7rem;
+  border-bottom: #333333 solid 1px;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+th, td {
+  border-right: #333333 solid 1px;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+th {
+  background: #dddddd;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  text-align: center;
+}
+
+td {
+  background: #ffffff;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+tbody > tr:hover {
+  background: #fdfdfd;
+}
+
+deduced {
+  color: #aa8800;
+}
+
+div.wrapper {
+  overflow-x: auto;
+  width: 100%;
+  box-sizing: border-box;
+  border: #111111 solid 0.05rem;
+
+}
+    </style>
+  </head>
+
+  <body>
+    <h1>Single Board Computers</h1>
+    <h2>The List</h2>
+    <p>The following table contains a list of single board computers</p>
+    <blockquote>Note that some information is <deduced>deduced</deduced> from the offical description found on the site of the computer's producer or the site of the SoC's producer or from any additional sites that contain information about the technology or standards used in building the computer.</blockquote>
+    <div class="wrapper">
+    <table>
+	  <thead>
+        <tr><th width="90rem">Name</th><th width="110rem">SoC</th><th width="180rem">CPU</th><th width="100rem">CPU Frequency</th><th width="80rem">GPU</th><th width="110rem">RAM Type</th><th width="70rem">RAM Array Clock</th><th width="70rem">RAM Bus Clock</th><th width="120rem">RAM Size Options</th><th width="90rem">Ethernet</th><th width="120rem">WiFi</th><th width="70rem">Bluetooth</th><th width="80rem">USB Ports</th><th width="80rem">OpenGL ES</th><th width="80rem">OpenCL</th><th width="100rem">Video I/O</th><th width="100rem">Audio I/O</th><th width="180rem">Hardware Video Encoding</th><th width="60rem">Power</th><th width="110rem">Power Input</th><th width="150rem">Internal Storage</th><th width="150rem">External Storage</th><th width="170rem">Additional I/O</th></tr>
+      </thead>
+      <thead>
+        <tr class="product"><th colspan=23>Raspberry Pi - <a href="https://www.raspberrypi.org">https://www.raspberrypi.org</a></th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Raspberry Pi 4</td><td>Broadcom BCM2711</td><td>Quad core Cortex-A72 (ARM v8) 64-bit @ 1.5GHz</td><td>1.5 Ghz</td><td>VideoCore VI</td><td>LPDDR4-2400 SDRAM</td><td><deduced>150 Mhz</deduced></td><td><deduced>1200 Mhz</deduced></td><td>1 GiB, 2 GiB or 4 GiB<td>1 x RJ-45 1 Gbps</td><td>2.4 GHz and 5.0 GHz IEEE 802.11ac</td><td>5.0</td><td>- 2 x USB 3.0<br>- 2 x USB 2.0</td><td>3.0</td><td>-</td><td>- 2 x micro-HDMI output<br>- 4-pole stereo audio and composite video port</td><td>- 2 x micro-HDMI output<br>- 4-pole stereo audio and composite video port</td><td>- H.265 (4kp60 decode)<br>- H.264 (1080p60 decode, 1080p30 encode)</td><td>DC 5V, 3A</td><td>USB-C connector or GPIO header</td><td>-</td><td>MicroSD card slot</td><td>- 40 pin GPIO header<br>- 2-lane MIPI DSI display port<br>- 2-lane MIPI CSI camera port</td></tr>
+      </tbody>
+      <thead>
+        <tr class="product"><th colspan=23>ODROID - <a href="https://www.hardkernel.com">https://www.hardkernel.com</a></th></tr>
+      </thead>
+      <tbody>
+        <tr><td>ODROID-XU4</td><td>Samsung Exynos5422</td><td>Cortex™-A15 2Ghz and Cortex™-A7 Octa core (4 + 4)</td><td>2 Ghz and 1.5 Ghz</td><td>Mali-T628 MP6</td><td>LPDDR3<deduced>-1500</deduced> SDRAM</td><td><deduced>187 Mhz</deduced></td><td>750 Mhz</td><td>2 GiB<td>1 x RJ-45 1 Gbps</td><td>(optional) USB IEEE 802.11 ac/b/g/n 1T1R WLAN with Antenna</td><td>-</td><td>- 2 x USB 3.0<br>- 1 x USB 2.0</td><td>3.1/2.0/1.1</td><td>1.2 Full Profile</td><td>1 x HDMI 1.4a output</td><td>1 x HDMI 1.4a output</td><td>VP8 (1080p120 encoding and decoding)</td><td>DC 5V, 4A</td><td><deduced>IEC 60130-10:1971 Type A: 5.5 mm OD, 2.1 mm ID</deduced></td><td>-</td><td>eMMC module socket (eMMC 5.0 Flash Storage (up to 64GByte) or MicroSD Card Slot (up to 128GByte))</td><td>-</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <h2>References</h2>
+    <p>Below, there's a list of links containing most of the information used to compile the list.</p>
+    <ul>
+      <li><a href="https://www.hardkernel.com">https://www.hardkernel.com</a></li>
+      <li><a href="https://www.raspberrypi.org">https://www.raspberrypi.org</a></li>
+      <li><a href="https://www.samsung.com/semiconductor/minisite/exynos/">https://www.samsung.com/semiconductor/minisite/exynos/</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Coaxial_power_connector">https://en.wikipedia.org/wiki/Coaxial_power_connector</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Exynos">https://en.wikipedia.org/wiki/Exynos</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/LPDDR">https://en.wikipedia.org/wiki/LPDDR</a></li>
+    </ul>
+  </body>
+</html>
